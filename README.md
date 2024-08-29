@@ -1,5 +1,5 @@
 ## ❗ Bilgi
-Bu proje, HTML & CSS & JS dilleri kullanılarak yazılmış ve Node.js sayesinde hostlanan çanta firmasına ait stok işleme ve ürün takip sistemi için Web Sitesi denemesidir.
+Bu proje, HTML & CSS & JS dilleri kullanılarak yazılmış ve Node.js sayesinde hostlanan çanta firmasına ait stok işleme ve ürün takip sistemi için Web Sitesi denemesidir. Siteye bağlı herhangi bir Database bulunmamaktadır. Eklenen ürünler JSON dosyasında saklanmaktadır.
 
 ## 🖥️ İçindekiler
 - Ana Sayfa
