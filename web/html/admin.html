@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Ürün Ekle</title>
+        <link rel="stylesheet" href="../css/admin.css"/>
+        <link rel="icon" href="../images/web-icon.png" type="image/png"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Ana Sayfa</a></li>
+                    <li><a href="./delete.html">Ürün Sil</a></li>
+                    <li><a href="./update.html">Ürün Düzenle</a></li>
+                    <li><a href="./stock.html">Stok Kontrol</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="admin">
+                <h2>Ürün Ekle</h2>
+                <form id="product-form">
+                    <label for="name">Ürün Adı:</label>
+                    <input type="text" id="name" name="name" required />
+
+                    <label for="category">Kategori:</label>
+                    <select id="category" name="category" required>
+                        <option value="cuzdanlar">Cüzdanlar</option>
+                        <option value="el-cantalari">El Çantaları</option>
+                        <option value="bel-cantalari">Bel Çantaları</option>
+                        <option value="erkek-cantalari">Erkek Çantaları</option>
+                        <option value="kadin-cantalari">Kadın Çantaları</option>
+                    </select>
+
+                    <label for="price">Fiyat:</label>
+                    <input type="number" id="price" name="price" required />
+
+                    <label for="currency">Para Birimi:</label>
+                    <select id="currency" name="currency" required>
+                        <option value="TRY">TL</option>
+                        <option value="EUR">Euro</option>
+                        <option value="USD">Dolar</option>
+                    </select>
+
+                    <label for="stock">Stok:</label>
+                    <input type="number" id="stock" name="stock" required />
+
+                    <label for="image">Resim:</label>
+                    <input type="file" id="image" name="image" accept="image/*" required/>
+
+                    <label for="description">Açıklama:</label>
+                    <textarea id="description" name="description" rows="4" required></textarea>
+                    <button type="submit">Ekle</button>
+                </form>
+            </section>
+        </main>
+
+        <script src="../js/admin-panel.js"></script>
+    </body>
+</html>

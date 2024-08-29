@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    background-image: url("../images/ana-sayfa-image.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+header {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav ul li:first-child {
+    margin-left: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #ddd;
+}
+
+header nav ul li:first-child {
+    margin-top: 10px;
+}
+
+#login {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login form label,
+#login form input {
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+#login form button {
+    margin-top: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+}

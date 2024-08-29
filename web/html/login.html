@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Admin Giriş</title>
+        <link rel="stylesheet" href="../css/login.css"/>
+        <link rel="icon" href="../images/web-icon.png" type="image/png"/>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Ana Sayfa</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="login">
+                <form id="login-form">
+                    <label for="username">Kullanıcı Adı:</label>
+                    <input type="text" id="username" name="username" required/>
+                    <label for="password">Şifre:</label>
+                    <input type="password" id="password" name="password" required/>
+                    <button type="submit">Giriş</button>
+                </form>
+
+                <p id="error-message" style="color: red; display: none">Hatalı kullanıcı adı veya şifre!</p>
+            </section>
+        </main>
+
+        <script src="../js/login-form.js"></script>
+    </body>
+</html>

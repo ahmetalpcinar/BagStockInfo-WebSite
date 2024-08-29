@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Ürün Sil</title>
+        <link rel="stylesheet" href="../css/product.css"/>
+        <link rel="icon" href="../images/web-icon.png" type="image/png"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Ana Sayfa</a></li>
+                    <li><a href="./admin.html">Ürün Ekle</a></li>
+                    <li><a href="./update.html">Ürün Düzenle</a></li>
+                    <li><a href="./stock.html">Stok Kontrol</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="delete-product">
+                <h2>Ürün Sil</h2>
+
+                <form id="product-delete-form">
+                    <label for="product-id">Ürün Seç:</label>
+                    <select id="product-id" name="product-id" required>
+                    </select>
+                    <button type="submit">Sil</button>
+                </form>
+
+                <p id="message" style="color: green; display: none">Ürün başarıyla silindi!</p>
+            </section>
+        </main>
+
+        <script src="../js/delete-product.js"></script>
+    </body>
+</html>

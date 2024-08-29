@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Stok Güncelle</title>
+        <link rel="stylesheet" href="../css/product.css"/>
+        <link rel="icon" href="../images/web-icon.png" type="image/png"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Ana Sayfa</a></li>
+                    <li><a href="./admin.html">Ürün Ekle</a></li>
+                    <li><a href="./delete.html">Ürün Sil</a></li>
+                    <li><a href="./update.html">Ürün Düzenle</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="update-stock">
+                <h2>Stok Güncelle</h2>
+
+                <form id="stock-update-form">
+                    <label for="product-id">Ürün Seç:</label>
+                    <select id="product-id" name="product-id" required>
+                    </select>
+                    <label for="product-stock">Yeni Stok Miktarı:</label>
+                    <input type="number" id="product-stock" name="product-stock" required />
+                    <button type="submit">Güncelle</button>
+                </form>
+
+                <p id="message" style="color: green; display: none">Stok başarıyla güncellendi!</p>
+            </section>
+        </main>
+
+        <script src="../js/update-stock.js"></script>
+    </body>
+</html>
