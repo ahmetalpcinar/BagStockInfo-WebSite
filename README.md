@@ -19,12 +19,12 @@ Giriş sayfası, site yetkililerinin giriş için kullanıcı adı ve şifre yaz
 const user = { username: "admin", password: "12345678" };
 ```
 
-<img src="https://github.com/ahmetalpcinar/ahmetalpcinar/blob/main/PNG/Images/imageBSIW1.png">
+<img src="https://github.com/ahmetalpcinar/ahmetalpcinar/blob/main/PNG/Images/imageBSIW2.png">
 
 ## 🏠 Ana Sayfa
 Ana sayfa, diğer sayfalar arasında gezinmeyi sağlayan ana menü sayfasıdır. Bu sayfadan ürünleri takip etmek için ürün sayfaları arasında gezinilebilir.
 
-<img src="https://github.com/ahmetalpcinar/ahmetalpcinar/blob/main/PNG/Images/imageBSIW2.png">
+<img src="https://github.com/ahmetalpcinar/ahmetalpcinar/blob/main/PNG/Images/imageBSIW1.png">
 
 ## 👜 Ürün & Stok Kontrol Sayfası
 Ürün ve stok kontrol sayfası, ürünleri eklediğimiz, sildiğimiz, güncellediğimiz ve stokları yönettiğimiz sayfalardır. Ana sayfa da bulunan "Giriş" düğmesinin yönlendirdiği Login Sayfasından sonra yetkili olarak giriş yapılır ve bu sayfalara ulaşılır.
