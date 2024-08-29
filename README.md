@@ -3,16 +3,9 @@ Bu proje, HTML & CSS & JS dilleri kullanılarak yazılmış ve Node.js sayesinde
 
 ## 🖥️ İçindekiler
 - Ana Sayfa
-- Giriş Sayfası
-- Cüzdanlar Sayfası
-- El Çantaları Sayfası
-- Bel Çantaları Sayfası
-- Erkek Çantaları Sayfası
-- Kadın Çantaları Sayfası
-- Ürün Sil Sayfası
-- Ürün Ekle Sayfası
-- Ürün Güncelleme Sayfası
-- Stok Güncelleme Sayfası
+- Giriş Sayfası (Sadece yetkililer için)
+- Ürünleri Görüntüleme Sayfası (Her ürün Kategorisi için 1 tane.)
+- Ürün ve Stok Kontrol Sayfası (Ürün Sil, Ekle, Güncelle ve Stok Yönetimi)
 
 ## 📥 Giriş Sayfası
 Giriş sayfası, site yetkililerinin giriş için kullanıcı adı ve şifre yazdığı sayfadır.
