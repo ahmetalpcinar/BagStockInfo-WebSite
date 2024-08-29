@@ -7,6 +7,9 @@ Bu proje, HTML & CSS & JS dilleri kullanılarak yazılmış ve Node.js sayesinde
 - Ürünleri Görüntüleme Sayfası (Her ürün Kategorisi için 1 tane.)
 - Ürün & Stok Kontrol Sayfası (Ürün Sil, Ekle, Güncelle ve Stok Yönetimi)
 
+## 🔌 Çalışma Mantığı
+Bu siteyi çalıştırmak için Node.js kullanılmaktadır. Visual Studio Code uygulamasında projemizi açtıktan sonra bir terminal oluşturmalı ve terminale `node server.js` yazılmalıdır. Bu sayede sitemiz Local olarak hostlanı. Terminal de size döndürülen site URL'si ile siteye ulaşabilirsiniz!
+
 ## 📥 Giriş Sayfası
 Giriş sayfası, site yetkililerinin giriş için kullanıcı adı ve şifre yazdığı sayfadır. Sadece yetkili olarak giriş yapmak mevcuttur.
 
